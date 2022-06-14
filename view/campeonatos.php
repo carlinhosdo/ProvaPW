@@ -16,9 +16,9 @@
 
     <div class="informacoes" >
         <h2 id="nome" > Nome </h2>
-            <input type="text"  id="cadastro" placeholder=" Faça seu cadastro" required >
+            <input type="text"  id="cadastro" placeholder=" Adicione o seu nome" required >
          <h2 id="nome"> Modalidades </h2>
-            <input type="text"  id="modalidades" placeholder=" Faça seu cadastro" required >
+            <input type="text"  id="modalidades" placeholder="Sua modalidade" required >
         <div class="butao" > <br>
             <button id="btncadastro"> Cadastrar </button>
             <button id="btnvt"> Ver Tudo</button>
@@ -30,7 +30,7 @@
                         <label for=" prprimeiro "> 1° Lugar - R$ 33 Milhões </label > <br >
                        <label for=" prsegunddo "> 2° Lugar - R$ 31,3 Milhões </label > <br > 
                         <label for=" prterceiro "> 3° Lugar - R$ 29,7 Milhões </label > <br >
-    </div>
+    </div >
     
     <div class="Amador" > 
                 <h2 id="amador" > Amador </h2>

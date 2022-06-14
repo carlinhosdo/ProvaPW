@@ -1,13 +1,24 @@
 #titulocamp{
     width: 500px;   
     margin: 0px auto;
-    position: relative;   
-    min-height: 10px;
+    position: absolute; 
+    top: 50px;
+    left: 300px;  
 }
 
 .premiacoes{
     margin-left: 500px;
-    position: relative;
-    padding-bottom: 100px;
+    position: absolute;
+    bottom: 500px;
+    left: -100px;
     
+}
+.Amador{
+    margin-left: 700px;
+    position: absolute;
+    bottom: 500px;
+    left: -100px;
+}
+#btnvoltar{
+    width: 70px;   
 }
