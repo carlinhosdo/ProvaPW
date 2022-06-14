@@ -1,24 +1,55 @@
-#titulocamp{
-    width: 500px;   
-    margin: 0px auto;
-    position: absolute; 
-    top: 50px;
-    left: 300px;  
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+    max-width: 958px;
+    margin: auto;
 }
 
-.premiacoes{
-    margin-left: 500px;
-    position: absolute;
-    bottom: 500px;
-    left: -100px;
-    
+.premiacoes, .Amador {
+    display: flex;
+    flex-direction: column;
 }
-.Amador{
-    margin-left: 700px;
-    position: absolute;
-    bottom: 500px;
-    left: -100px;
+
+.premiacao-container {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
-#btnvoltar{
-    width: 70px;   
+
+@media screen and (max-width: 900px) {
+    .informacoes {
+        flex-wrap: wrap;
+    }
 }
+
+.topnavbar{
+    background-color: rgb(7, 9, 165);
+    overflow: hidden;
+  }
+
+.topnavbar a {
+    border: none;
+    background-color: rgb(7, 9, 165);
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavbar button {
+  border: none;
+  background-color: rgb(7, 9, 165);
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavbar button:hover {
+    background-color: #ddd;
+    color: black;
+  }
