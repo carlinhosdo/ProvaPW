@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-preto: #000;
+    --azul-escuro: #001f54ff;
+    --azul-normal: #034078ff;
+    --azul-claro: #1282a2ff;
+    --cor-branco: #fefcfbff;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CONTAINER */
+
+.container {
+    width: 700px;
+    height: 400px;
+    border: 1px solid var(--cor-preto);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px var(--cor-preto);
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGIN */
+
+.login {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--azul-claro);
+    color: var(--cor-branco);
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black
+}
+
+.form {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+#login-enviar {
+    width: 50%;
+    padding: 10px 5px;
+    background-color: var(--cor-branco);
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#login-enviar:hover {
+    transform: scale(1.1);
+    width: 60%;
+    border-radius: 20px ;
+}
+
+/* CAMPEONATO */
+
+.campeonato-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 958px;
+    margin: auto;
+}
+
+.premiacoes, .Amador {
+    display: flex;
+    flex-direction: column;
+}
+
+.premiacao-container {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    .informacoes {
+        flex-wrap: wrap;
+    }
+}
+
+.topnavbar{
+    background-color: var(--azul-normal);
+    overflow: hidden;
+  }
+
+.topnavbar a {
+    border: none;
+    background-color: var(--azul-normal);
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavbar button {
+  border: none;
+  background-color: var(--azul-normal);
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavbar button:hover {
+    background-color: #ddd;
+    color: black;
+}
