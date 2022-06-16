@@ -46,8 +46,8 @@ $("#amador").click(function(){
 
 })
 $("#profissional").click(function(){
-    $("#iniciante-texto").show()
+    $("#iniciante-texto").hide()
     $("#amador-texto").hide()
-    $("#profissional-texto").hide()
+    $("#profissional-texto").show()
 
 })
