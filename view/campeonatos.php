@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massa</title>
-    <link rel="stylesheet" href="campeonatos.css">
-    <link rel="stylesheet" href="style/alertify.css">
-</head>
-<body>
 <div class="Caixa" >
     <div class="topnavbar">
                 <button id="btnvoltar" > Voltar </button>
@@ -16,7 +5,6 @@
                 <button id="btnvt"> Ver Tudo</button>
         </div>
     </div>
-
 <div class="campeonato-informacoes" >
     <div class="informacoes-texto">
          <h2 id="nome" > Nome </h2> <br>
@@ -45,6 +33,3 @@
     <script src="script/jquery.js"></script>
     <script src="script/app.js"></script>
     <script src="script/alertify.js"></script>
-</body>
-</html>
-
