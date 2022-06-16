@@ -1,13 +1,14 @@
-document.querySelector("#cadastrarCampeonato").onclick = function() {myFunction()};
-let cadastro = document.querySelector("#inputTexto");
-let modalidades = document.querySelector("#inputModalidade");
-function myFunction() {
-    if(cadastro = ("") && (modalidades = (""))){
-    alertify.alert("Alerta!", "Preencha o campo do Nome.");
-    }else{
+$("#cadastrarCampeonato").click(function(){
+let cadastro = $("#inputNome").val()
+console.log(cadastro);
+let modalidades = $("#inputModalidade").val()
+if(cadastro == "" && modalidades == ""){
+    alertify.alert("Alerta!", "Preencha o campo de texto.");
+}else{
     alertify.alert("Alerta!", "O usuário foi cadastrado");
-    }
 }
+})
+
 
 function mudarTela(url){
     $.ajax({
