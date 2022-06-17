@@ -41,6 +41,7 @@ body {
 
 }
 .apresentacao{
+    border-radius: 6px;
     background-color: var(--azul-normal);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--cor-branco);
@@ -95,6 +96,7 @@ body {
     position: relative;
     transition: all 250ms;
     overflow: hidden;
+    border: 1px solid var(--azul-claro);
    }
    
    #login-enviar::before {
@@ -127,119 +129,86 @@ body {
 .campeonato-informacoes {
     display: flex;
     justify-content: space-around;
-    max-width: 958px;
-    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 340px;
 }
 
-.premiacoes, .Amador {
+.campeonato-texto {
+    height: 240px;
+    width: 30%;
+    border: 2px solid var(--cor-branco);
+    border-radius: 2px;
     display: flex;
     flex-direction: column;
-    color: #001f54ff;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: .4s;
+}
+#inputNome{
+    padding: 5px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    border: 1px solid var(--azul-claro);
+}
+#inputModalidade{
+    padding: 5px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    border: 1px solid var(--azul-claro);
+}
+
+.campeonato-texto:hover {
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+    transform: scale(1.01);
 }
 
 .premiacao-container {
-    width: 400px;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 200px;
-    right: 200px;
-    color: #034078ff;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 60%;
 }
-
-@media screen and (max-width: 900px) {
-    .informacoes {
-        flex-wrap: wrap;
-    }
-}
-
-.topnavbar{
-    background-color: #1282a2ff;
-    overflow: hidden;
-    box-shadow: 0 0 1em #001f54ff;
-  }
-
-.topnavbar a {
-    border: none;
-    background-color: #1282a2ff;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnavbar #btnvoltar {
-  border: none;
-  background-color: #1282a2ff;
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  transition: background-color 100ms ease-out 100ms;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.topnavbar #btnvoltar:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-.topnavbar #btnvt{
-  border: none;
-  background-color: #1282a2ff;
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  transition: background-color 100ms ease-out 100ms;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.topnavbar #titulocamp{
-    position: absolute;
-    left: 570px;
-    bottom: 620px;  
-    color: white;
-    font-size: 25px;
-}   
-
-.topnavbar #btnvt:hover {
-    background-color: #ddd;
-    color: black;
-  }
 
 #cadastrarCampeonato{
-    border-width: 1px;
-    border-radius: 20px;
-    background-color: #1282a2ff;
-    padding: 10px;
-    color: white;
-}
-#inputNome{
-    border: none;
-    border-radius: 20px;
-    padding: 3px;
-}
-#inputModalidade{
-    border: none;
-    border-radius: 20px;
-    padding: 3px;
-}
-#nome{
-    color: #034078ff;
-}
-#nomeModalidades{
-    color: #034078ff;
-}
+    background-color: var(--azul-claro);
+    padding: 5px 26px;
+    margin: auto;
+    border: unset;
+    border-radius: 15px;
+    color: var(--cor-branco);
+    z-index: 1;
+    position: relative;
+    transition: all 250ms;
+    overflow: hidden;
+    border: 1px solid var(--azul-claro);
+   }
+   
+   #cadastrarCampeonato::before {
+    color: var(--azul-claro);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: var(--cor-branco);
+    z-index: -1;
+    transition: all 250ms
+   }
+   
+ #cadastrarCampeonato:hover {
+    color: var(--azul-claro);
+    border: 1px solid var(--azul-claro);
 
+   }
+   
+ #cadastrarCampeonato:hover::before {
+    width: 100%;
+   }
 
 /* INFORMAÇÕES*/
 
@@ -251,15 +220,19 @@ body {
     justify-content: space-between;
     align-items: center;
 
-
 }
 .informacoes h1{
-    margin-top: 20px;
+    margin-top: 15px;
+    color: var(--cor-preto);
+    transition: 0.3s;
+}
+.informacoes h1:hover{
+    color: var(--azul-escuro);
 }
 .menu{
+    border-radius: 8px;
     background-color: var(--azul-normal);
     width: 100%;
-    border-bottom: 2px solid var(--cor-preto);
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -282,8 +255,14 @@ body {
     color: var(--azul-normal);
     background-color: var(--cor-branco);
 }
-.menu img{
-    width: 60px;
+#icon{
+    width: 50px;
+    margin: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+#icon:hover{
+    transform: scale(1.1);
 }
 .direita{
     display: flex;
@@ -296,48 +275,6 @@ body {
     height: 270px;
     align-items: center;
 
-}
-#iniciante{
-    background-color: var(--cor-branco);
-    color: var(--azul-normal);
-    padding: 5px;
-    margin: 0 0 20px 0;
-    border-radius: 20px;
-    border: 1px solid var(--cor-branco);
-
-}
-#iniciante:hover{
-    background-color: var(--azul-normal);
-    color: var(--cor-branco);
-    border: 1px solid var(--azul-normal);
-}
-#amador{
-    background-color: var(--cor-branco);
-    color: var(--azul-normal);
-    padding: 5px;
-    margin: 0 0 20px 0;
-    border-radius: 20px;
-    border: 1px solid var(--cor-branco);
-
-}
-#amador:hover{
-    background-color: var(--azul-normal);
-    color: var(--cor-branco);
-    border: 1px solid var(--azul-normal);
-}
-#profissional{
-    background-color: var(--cor-branco);
-    color: var(--azul-normal);
-    padding: 5px;
-    margin: 0 0 20px 0;
-    border-radius: 20px;
-    border: 1px solid var(--cor-branco);
-
-}
-#profissional:hover{
-    background-color: var(--azul-normal);
-    color: var(--cor-branco);
-    border: 1px solid var(--azul-normal);
 }
 .informacoes-span{
     display: flex;
@@ -360,6 +297,8 @@ body {
     height: 100%;
 }
 #iniciante-texto{
+    border-radius: 20px;
+    margin: -15px 10px;
     background: linear-gradient(0deg, rgba(3,64,120,1) 0%, rgba(18,130,162,1) 52%, rgba(255,255,255,1) 100%);
     color: var(--cor-branco);
     height: 100%;
@@ -369,6 +308,8 @@ body {
     padding: 0 20px;
 }
 #amador-texto{
+    border-radius: 20px ;
+    margin: -15px 10px;
     background: linear-gradient(0deg, rgba(0,31,84,1) 0%, rgba(3,64,120,1) 52%, rgba(255,255,255,1) 100%);
     color: var(--cor-branco);
     height: 100%;
@@ -378,6 +319,8 @@ body {
     padding: 0 20px;
 }
 #profissional-texto{
+    border-radius: 20px;
+    margin: -15px 10px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,31,84,1) 52%, rgba(254,252,251,1) 100%);
     color: var(--cor-branco);
     height: 100%;

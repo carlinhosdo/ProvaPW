@@ -29,6 +29,10 @@ $("#login-enviar").click(() => {
     }
 })
 
+$("#icon").click(() => {
+    abrirTela("informacoes.php")
+})
+
 $("#campeonatos").click(() => {
     abrirTela("campeonatos.php")
 })

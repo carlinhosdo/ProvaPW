@@ -1,20 +1,22 @@
-<div class="Caixa" >
-    <div class="topnavbar">
-                <button id="btnvoltar" > Voltar </button>
-                <h1 id="titulocamp" > Campeonato </h1>
-                <button id="btnvt"> Ver Tudo</button>
+<ul class="menu" > 
+        <img id="icon" src="carlosamacss.png" >
+        <div class="direita">
+            <li class="menuitens" id="agendamento" > Agendamento </li >
+            <li class="menuitens" id="doacoes" > Doações </li >
+            <li class="menuitens" id="campeonatos" > Campeonatos </li >
         </div>
-    </div>
+    </ul >
 <div class="campeonato-informacoes" >
-    <div class="informacoes-texto">
-         <h2 id="nome" > Nome </h2> <br>
+    <div class="campeonato-texto">
+         <h2 id="nome" > Nome </h2>
          <input type="text"  id="inputNome" placeholder=" Adicione o seu nome" required> 
-         <h2 id="nomeModalidades"> <br> Modalidades </h2> <br>
+         <h2 id="nomeModalidades"> Modalidades </h2>
          <input type="text"  id="inputModalidade" placeholder="Sua modalidade" required> 
-         <div class="butao" >  <br>
+         <div class="butao" > 
             <button id="cadastrarCampeonato"> Cadastrar </button>
          </div>
     </div>
+    <hr>
     <div class="premiacao-container">
         <div class="premiacoes">
             <h2>Profissional</h2> <br>
