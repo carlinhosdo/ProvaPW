@@ -36,7 +36,9 @@ $("#icon").click(() => {
 $("#campeonatos").click(() => {
     abrirTela("campeonatos.php")
 })
-
+$("#agendamento").click(() => {
+    abrirTela("agendamento.php")
+})
 $("#iniciante").click(function(){
     $("#iniciante-texto").show()
     $("#amador-texto").hide()

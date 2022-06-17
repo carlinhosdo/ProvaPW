@@ -1,15 +1,18 @@
+<ul class="menu" > 
+        <img id="icon" src="carlosamacss.png" >
+        <div class="direita" >
+            <li class="menuitens" id="agendamento" > Agendamento </li >
+            <li class="menuitens" id="doacoes" > Doações </li >
+            <li class="menuitens" id="campeonatos" > Campeonatos </li >
+        </div>
+    </ul >
     <div class="agendamento" >
-        <button id="btnvoltar"> Voltar </button >
-            <h2 id="nome" > Nome </h2 >
-                <input type="text"  id="nome" placeholder=" Insira seu nome " required >
-            <h2 id="data" > Selecione uma Data:  </h2 >
-                <input type="date"  id="date" placeholder=" Escolha uma data " required >
-            <h2 id="nome" > Quantidade de Dias: </h2 >
-                <input type="text"  id="qntdias" placeholder=" Insira a quantidade de dias " required >
-            <h2 id="nome" > Data de Entrega: </h2 >
-                <input type="text"  id="qntdias" placeholder=" Data de entrega " required >
-        <button id="btnagendamento"> Agendamento </button >
+    <h1> Agendamento </h1 >
+        <input id="inputNome" type="text" >
+        <input id="inputEmail" type="text" >
+        <input id="inputDate" type="date" >
     </div >
+       
 
 <script src="script/jquery.js"></script>
 <script src="script/app.js"></script>
