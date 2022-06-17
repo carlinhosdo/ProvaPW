@@ -297,6 +297,48 @@ body {
     align-items: center;
 
 }
+#iniciante{
+    background-color: var(--cor-branco);
+    color: var(--azul-normal);
+    padding: 5px;
+    margin: 0 0 20px 0;
+    border-radius: 20px;
+    border: 1px solid var(--cor-branco);
+
+}
+#iniciante:hover{
+    background-color: var(--azul-normal);
+    color: var(--cor-branco);
+    border: 1px solid var(--azul-normal);
+}
+#amador{
+    background-color: var(--cor-branco);
+    color: var(--azul-normal);
+    padding: 5px;
+    margin: 0 0 20px 0;
+    border-radius: 20px;
+    border: 1px solid var(--cor-branco);
+
+}
+#amador:hover{
+    background-color: var(--azul-normal);
+    color: var(--cor-branco);
+    border: 1px solid var(--azul-normal);
+}
+#profissional{
+    background-color: var(--cor-branco);
+    color: var(--azul-normal);
+    padding: 5px;
+    margin: 0 0 20px 0;
+    border-radius: 20px;
+    border: 1px solid var(--cor-branco);
+
+}
+#profissional:hover{
+    background-color: var(--azul-normal);
+    color: var(--cor-branco);
+    border: 1px solid var(--azul-normal);
+}
 .informacoes-span{
     display: flex;
     flex-direction: column;
