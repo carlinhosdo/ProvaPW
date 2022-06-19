@@ -21,9 +21,9 @@ $("#cadastrarCampeonato").click(function(){
 
 $("#login-enviar").click(() => {
      if($("#nome").val() == "" && $("#idade").val()== ""){
-     alert("tu não preencheu nada fdp");
+     alert("É necessário preencher o campo de informação.");
     }else if($("#idade").val() <= 12){
-        alert("tu nao pode entrar fdp, pois vc so tem 12 anos");
+        alert("Você não poderá entrar, pois para entrar é preciso ter mais de 12 anos.");
     }else{
         abrirTela("informacoes.php");
     }
