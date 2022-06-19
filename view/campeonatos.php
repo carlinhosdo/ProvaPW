@@ -1,7 +1,7 @@
 <ul class="menu" > 
         <img id="icon" src="carlosamacss.png" >
         <div class="direita">
-            <li class="menuitens" id="agendamento" > Agendamento </li >
+            <li class="menuitens" id="dicionario" > Dicionário </li >
             <li class="menuitens" id="doacoes" > Doações </li >
             <li class="menuitens" id="campeonatos" > Campeonatos </li >
         </div>

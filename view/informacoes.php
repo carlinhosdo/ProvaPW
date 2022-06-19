@@ -2,7 +2,7 @@
     <ul class="menu" > 
         <img id="icon" src="carlosamacss.png" >
         <div class="direita">
-            <li class="menuitens" id="agendamento" > Agendamento </li >
+            <li class="menuitens" id="dicionario" > Dicionário </li >
             <li class="menuitens" id="doacoes" > Doações </li >
             <li class="menuitens" id="campeonatos" > Campeonatos </li >
         </div>
@@ -22,17 +22,17 @@
          <p id ="profissional-texto"> Dormir e acordar cedo, se alimente de forma saudável e faça exercícios funcionais e alongamentos.<p>
 
             <script> 
-            $(()=>{
-             $("#iniciante-texto").hide()
-            $("#amador-texto").hide()
-            $("#profissional-texto").hide()
-            })
-    </script>
+                $(()=>{
+                $("#iniciante-texto").hide()
+                $("#amador-texto").hide()
+                $("#profissional-texto").hide()
+                })
+            </script>
        
         </div>
        
     </div>
 
 </div>
-
+    
     <script src="script/app.js"></script>

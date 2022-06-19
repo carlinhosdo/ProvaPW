@@ -36,8 +36,11 @@ $("#icon").click(() => {
 $("#campeonatos").click(() => {
     abrirTela("campeonatos.php")
 })
-$("#agendamento").click(() => {
-    abrirTela("agendamento.php")
+$("#dicionario").click(() => {
+    abrirTela("dicionario-surf.php")
+})
+$("#doacoes").click(() => {
+    abrirTela("doacao.php")
 })
 $("#iniciante").click(function(){
     $("#iniciante-texto").show()
@@ -55,5 +58,49 @@ $("#profissional").click(function(){
     $("#iniciante-texto").hide()
     $("#amador-texto").hide()
     $("#profissional-texto").show()
+
+})
+$("#cavada").click(function(){
+    $("#cavada-texto").show()
+    $("#elevador-texto").hide()
+    $("#freesurf-texto").hide()
+    $("#giro-texto").hide()
+})
+$("#elevador").click(function(){
+    $("#cavada-texto").hide()
+    $("#elevador-texto").show()
+    $("#freesurf-texto").hide()
+    $("#giro-texto").hide()
+})
+$("#freesurf").click(function(){
+    $("#cavada-texto").hide()
+    $("#elevador-texto").hide()
+    $("#freesurf-texto").show()
+    $("#giro-texto").hide()
+})
+$("#giro").click(function(){
+    $("#cavada-texto").hide()
+    $("#elevador-texto").hide()
+    $("#freesurf-texto").hide()
+    $("#giro-texto").show()
+})
+
+
+$("#cinco").click(function(){
+    $("#cinco-doacao").show()
+    $("#dez-doacao").hide()
+    $("#vinte-doacao").hide()
+
+})
+$("#dez").click(function(){
+    $("#cinco-doacao").hide()
+    $("#dez-doacao").show()
+    $("#vinte-doacao").hide()
+
+})
+$("#vinte").click(function(){
+    $("#cinco-doacao").hide()
+    $("#dez-doacao").hide()
+    $("#vinte-doacao").show()
 
 })
