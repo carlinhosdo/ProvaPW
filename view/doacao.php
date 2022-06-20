@@ -10,16 +10,11 @@
 <div class="doacao" >
     <h1> Doação </h1>
     <hr>
-   <div class ="doacao-conteiner"> 
-    <div class="doacao-span">
-        <span id="cinco"> R$ 5 </span>
-        <span id="dez"> R$ 10 </span>
-        <span id="vinte"> R$ 15 </span>
-    </div>
+   <div class ="doacao-conteiner">  
         <div class="doacao-texto">
-        <img id="cinco-doacao" src="qrcode.png" >
-        <img id="dez-doacao" src="qrcode2.png" >
-        <img id="vinte-doacao" src="qrcode3.png" >
+        <img class="doacao-img" id="cinco-doacao" src="qrcode.png" >
+        <img class="doacao-img" id="dez-doacao" src="qrcode2.png" >
+        <img class="doacao-img" id="vinte-doacao" src="qrcode3.png" >
             <script> 
                 $(()=>{
                 $("#cinco-doacao").hide()
@@ -29,6 +24,11 @@
             </script>
        
         </div>
+        <div class="doacao-span">
+        <span id="cinco"> R$ 5 </span>
+        <span id="dez"> R$ 10 </span>
+        <span id="vinte"> R$ 15 </span>
+    </div>
        
     </div>
 
