@@ -8,14 +8,18 @@ function abrirTela(url){
     })
 }
 $("#cadastrarCampeonato").click(function(){
-    let cadastro = $("#inputNome").val()
-    console.log(cadastro);
-    let modalidades = $("#inputModalidade").val()
-    if(cadastro == "" && modalidades == ""){
-        alertify.alert("Alerta!", "Preencha o campo de texto.");
-    }else{
-        alertify.alert("Alerta!", "O usuário foi cadastrado");
-    }
+    if($("#inputNome").val() == "" && $("#inputModalidade").val()== ""){
+        alert("É necessário preencher o campo de informação.");
+       }else if($("#inputNome").val() == "carlos"){
+           alert("fi, eu acho que vou me fuder em bancos de dados");
+       }else if($("#inputNome").val() == "Luis"){
+        alert("Deus me abençoe");
+       }else if($("#inputNome").val() == "clemilto" && $("#inputModalidade").val()== "profissional"){
+           alert("o Homem mais lindo do mundo");
+          
+       }else{
+        alert("só Deus sabe a dor que estou sentindo");
+       }
     })
     
 
