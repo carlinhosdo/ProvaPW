@@ -387,12 +387,14 @@ body {
 
 }
 .dicionario-span{
+   
+
     display: flex;
     flex-direction: column;
     width: 30%;
     padding-left: 20px;
     height: 100%;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 .dicionario-span span:hover{
@@ -409,46 +411,54 @@ body {
 #cavada-texto{
     border-radius: 20px;
     margin: -15px 10px;
-    background: linear-gradient(0deg, rgba(3,64,120,1) 0%, rgba(18,130,162,1) 52%, rgba(255,255,255,1) 100%);
-    color: var(--cor-branco);
+    background: linear-gradient(0deg, rgba(126,168,164,1) 0%, rgba(0,60,84,0.8477766106442577) 15%, rgba(16,47,82,1) 100%);
+
+    color: var(--cor-cinza);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    box-shadow: 5px 10px rgb(0, 0, 0) ;
 }
 #elevador-texto{
     border-radius: 20px;
     margin: -15px 10px;
-    background: linear-gradient(0deg, rgba(3,64,120,1) 0%, rgba(18,130,162,1) 52%, rgba(255,255,255,1) 100%);
-    color: var(--cor-branco);
+    background: linear-gradient(0deg, rgba(126,168,164,1) 0%, rgba(0,60,84,0.8477766106442577) 15%, rgba(16,47,82,1) 100%);
+
+    color: var(--cor-preto);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    box-shadow: 5px 10px rgb(0, 0, 0);
 }
 #freesurf-texto{
     border-radius: 20px;
     margin: -15px 10px;
-    background: linear-gradient(0deg, rgba(3,64,120,1) 0%, rgba(18,130,162,1) 52%, rgba(255,255,255,1) 100%);
-    color: var(--cor-branco);
+    background: linear-gradient(0deg, rgba(126,168,164,1) 0%, rgba(0,60,84,0.8477766106442577) 15%, rgba(16,47,82,1) 100%);
+
+    color: var(--cor-preto);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    box-shadow: 5px 10px rgb(0, 0, 0);
 }
 #giro-texto{
     border-radius: 20px;
     margin: -15px 10px;
-    background: linear-gradient(0deg, rgba(3,64,120,1) 0%, rgba(18,130,162,1) 52%, rgba(255,255,255,1) 100%);
-    color: var(--cor-branco);
+    background: linear-gradient(0deg, rgba(126,168,164,1) 0%, rgba(0,60,84,0.8477766106442577) 15%, rgba(16,47,82,1) 100%);
+
+    color: var(--cor-preto);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    box-shadow: 5px 10px #000000;
 }
 /* Doações */
 .doacao{
