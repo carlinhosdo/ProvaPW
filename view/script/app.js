@@ -42,6 +42,9 @@ $("#dicionario").click(() => {
 $("#doacoes").click(() => {
     abrirTela("doacao.php")
 })
+$("#informacoes").click(() => {
+    abrirTela("informacoes.php")
+})
 $("#iniciante").click(function(){
     $("#iniciante-texto").show()
     $("#amador-texto").hide()
